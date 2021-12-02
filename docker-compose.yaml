@@ -1,0 +1,7 @@
+version: '2'
+services:
+  mypyapp:
+    build: .
+    ports:
+      - '38808:9090'
+     
